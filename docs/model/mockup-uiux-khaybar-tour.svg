@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1300" viewBox="0 0 1800 1300">
+  <defs>
+    <style>
+      .bg{fill:#f4f7fb}
+      .board-title{font:700 42px Arial, sans-serif;fill:#0f172a}
+      .board-sub{font:400 20px Arial, sans-serif;fill:#64748b}
+      .screen{fill:#fff;stroke:#dbe4ef;stroke-width:2;rx:28;filter:url(#shadow)}
+      .nav{fill:#0b5d49}
+      .green{fill:#0b5d49}
+      .soft-green{fill:#e7f5f0}
+      .blue{fill:#2563eb}
+      .orange{fill:#f97316}
+      .red{fill:#ef4444}
+      .muted{fill:#e5e7eb}
+      .line{stroke:#d5dde8;stroke-width:2}
+      .text{font:700 18px Arial, sans-serif;fill:#0f172a}
+      .small{font:400 14px Arial, sans-serif;fill:#64748b}
+      .tiny{font:400 12px Arial, sans-serif;fill:#64748b}
+      .white{font:700 14px Arial, sans-serif;fill:#fff}
+      .label{font:700 16px Arial, sans-serif;fill:#0b5d49}
+      .btn{fill:#0b5d49;rx:10}
+      .btn2{fill:#fff;stroke:#0b5d49;stroke-width:2;rx:10}
+      .badge{rx:12}
+    </style>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0f172a" flood-opacity=".10"/>
+    </filter>
+  </defs>
+
+  <rect class="bg" width="1800" height="1300"/>
+  <text x="900" y="70" text-anchor="middle" class="board-title">Mockup UI/UX Website Khaybar Tour</text>
+  <text x="900" y="105" text-anchor="middle" class="board-sub">Tampilan utama pelanggan dan admin sesuai modul pendaftaran umroh, pembayaran DP/cicilan, dokumen, invoice, dan laporan</text>
+
+  <!-- Landing Page -->
+  <rect x="70" y="155" width="520" height="330" class="screen"/>
+  <rect x="70" y="155" width="520" height="52" class="nav" rx="28"/>
+  <text x="105" y="188" class="white">KHAYBAR TOUR</text>
+  <text x="430" y="188" class="white">Login</text>
+  <rect x="105" y="240" width="450" height="120" fill="#0b5d49" opacity=".95" rx="22"/>
+  <text x="130" y="282" font="700 28px Arial" fill="#fff">Perjalanan Umroh Nyaman</text>
+  <text x="130" y="314" class="white">Pilih paket, daftar, bayar, upload dokumen</text>
+  <rect x="130" y="330" width="120" height="36" fill="#fff" rx="10"/>
+  <text x="190" y="353" text-anchor="middle" class="label">Lihat Paket</text>
+  <text x="95" y="420" class="text">Card Paket Tersedia</text>
+  <rect x="95" y="435" width="135" height="32" class="soft-green" rx="12"/>
+  <rect x="245" y="435" width="135" height="32" class="soft-green" rx="12"/>
+  <rect x="395" y="435" width="135" height="32" class="soft-green" rx="12"/>
+  <text x="330" y="520" text-anchor="middle" class="label">1. Beranda / Landing Page</text>
+
+  <!-- Package Detail -->
+  <rect x="640" y="155" width="520" height="330" class="screen"/>
+  <rect x="640" y="155" width="520" height="52" class="nav" rx="28"/>
+  <text x="675" y="188" class="white">Paket Umroh</text>
+  <rect x="680" y="235" width="190" height="210" fill="#f8fafc" stroke="#dbe4ef" rx="18"/>
+  <rect x="905" y="235" width="210" height="40" class="soft-green" rx="12"/>
+  <text x="925" y="260" class="label">UMR001 - Hemat</text>
+  <text x="905" y="305" class="text">Rp 24.500.000</text>
+  <line x1="905" y1="325" x2="1115" y2="325" class="line"/>
+  <text x="905" y="355" class="small">Durasi: 9 hari</text>
+  <text x="905" y="380" class="small">Kuota: 45 jamaah</text>
+  <text x="905" y="405" class="small">Fasilitas dan jadwal</text>
+  <rect x="905" y="425" width="155" height="38" class="btn"/>
+  <text x="982" y="449" text-anchor="middle" class="white">Daftar Paket</text>
+  <text x="900" y="520" text-anchor="middle" class="label">2. Detail Paket Umroh</text>
+
+  <!-- Registration Form -->
+  <rect x="1210" y="155" width="520" height="330" class="screen"/>
+  <rect x="1210" y="155" width="520" height="52" class="nav" rx="28"/>
+  <text x="1245" y="188" class="white">Form Pendaftaran</text>
+  <text x="1250" y="245" class="text">Paket: Umroh Hemat Berfaidah</text>
+  <rect x="1250" y="270" width="200" height="42" fill="#fff" stroke="#cbd5e1" rx="10"/>
+  <text x="1265" y="296" class="small">Jumlah jamaah</text>
+  <rect x="1250" y="330" width="430" height="70" fill="#fff" stroke="#cbd5e1" rx="10"/>
+  <text x="1265" y="358" class="small">Catatan pelanggan</text>
+  <rect x="1250" y="420" width="180" height="40" class="btn"/>
+  <text x="1340" y="445" text-anchor="middle" class="white">Simpan</text>
+  <text x="1470" y="520" text-anchor="middle" class="label">3. Form Pendaftaran Paket</text>
+
+  <!-- Customer Dashboard -->
+  <rect x="70" y="585" width="520" height="330" class="screen"/>
+  <rect x="70" y="585" width="520" height="52" class="nav" rx="28"/>
+  <text x="105" y="618" class="white">Dashboard Pelanggan</text>
+  <rect x="105" y="675" width="140" height="185" fill="#f8fafc" stroke="#dbe4ef" rx="18"/>
+  <circle cx="175" cy="720" r="26" class="soft-green"/>
+  <text x="175" y="728" text-anchor="middle" class="label">A</text>
+  <text x="125" y="770" class="small">Ahmad Fauzi</text>
+  <text x="125" y="795" class="tiny">ahmad@gmail.com</text>
+  <text x="275" y="685" class="text">Pendaftaran Saya</text>
+  <rect x="275" y="710" width="280" height="34" fill="#f8fafc" stroke="#dbe4ef" rx="8"/>
+  <rect x="275" y="752" width="280" height="34" fill="#f8fafc" stroke="#dbe4ef" rx="8"/>
+  <rect x="275" y="794" width="280" height="34" fill="#f8fafc" stroke="#dbe4ef" rx="8"/>
+  <text x="330" y="950" text-anchor="middle" class="label">4. Dashboard Pelanggan</text>
+
+  <!-- Jamaah Data -->
+  <rect x="640" y="585" width="520" height="330" class="screen"/>
+  <rect x="640" y="585" width="520" height="52" class="nav" rx="28"/>
+  <text x="675" y="618" class="white">Data Jamaah</text>
+  <text x="680" y="685" class="text">Daftar Jamaah</text>
+  <rect x="930" y="660" width="170" height="38" class="btn"/>
+  <text x="1015" y="684" text-anchor="middle" class="white">Tambah Jamaah</text>
+  <rect x="680" y="725" width="430" height="42" fill="#f8fafc" stroke="#dbe4ef" rx="8"/>
+  <text x="700" y="751" class="small">Nama | NIK | Jenis Kelamin | Aksi</text>
+  <rect x="680" y="780" width="430" height="42" fill="#fff" stroke="#dbe4ef" rx="8"/>
+  <text x="700" y="806" class="small">Jamaah 1 | 3174... | Laki-laki | Detail</text>
+  <rect x="680" y="835" width="430" height="42" fill="#fff" stroke="#dbe4ef" rx="8"/>
+  <text x="700" y="861" class="small">Jamaah 2 | 3174... | Perempuan | Detail</text>
+  <text x="900" y="950" text-anchor="middle" class="label">5. Data Jamaah</text>
+
+  <!-- Payment -->
+  <rect x="1210" y="585" width="520" height="330" class="screen"/>
+  <rect x="1210" y="585" width="520" height="52" class="nav" rx="28"/>
+  <text x="1245" y="618" class="white">Tagihan Pembayaran</text>
+  <rect x="1245" y="670" width="205" height="95" fill="#fff7ed" stroke="#fb923c" rx="18"/>
+  <text x="1265" y="700" class="text">DP 30%</text>
+  <text x="1265" y="728" class="small">Status: Valid</text>
+  <rect x="1485" y="670" width="205" height="95" fill="#f8fafc" stroke="#dbe4ef" rx="18"/>
+  <text x="1505" y="700" class="text">Pelunasan</text>
+  <text x="1505" y="728" class="small">Upload bukti</text>
+  <text x="1245" y="805" class="text">Cicilan Maksimal 4x</text>
+  <rect x="1245" y="825" width="95" height="55" fill="#e7f5f0" stroke="#0b5d49" rx="12"/>
+  <rect x="1355" y="825" width="95" height="55" fill="#e7f5f0" stroke="#0b5d49" rx="12"/>
+  <rect x="1465" y="825" width="95" height="55" fill="#e7f5f0" stroke="#0b5d49" rx="12"/>
+  <rect x="1575" y="825" width="95" height="55" fill="#e7f5f0" stroke="#0b5d49" rx="12"/>
+  <text x="1292" y="857" text-anchor="middle" class="small">Cicilan 1</text>
+  <text x="1402" y="857" text-anchor="middle" class="small">Cicilan 2</text>
+  <text x="1512" y="857" text-anchor="middle" class="small">Cicilan 3</text>
+  <text x="1622" y="857" text-anchor="middle" class="small">Cicilan 4</text>
+  <text x="1470" y="950" text-anchor="middle" class="label">6. Pembayaran DP, Pelunasan, Cicilan</text>
+
+  <!-- Document Upload -->
+  <rect x="70" y="1015" width="520" height="230" class="screen"/>
+  <rect x="70" y="1015" width="520" height="52" class="nav" rx="28"/>
+  <text x="105" y="1048" class="white">Upload Dokumen</text>
+  <rect x="105" y="1095" width="450" height="40" fill="#fff7ed" stroke="#fb923c" rx="10"/>
+  <text x="125" y="1120" class="small">Upload aktif setelah pembayaran awal Valid</text>
+  <rect x="105" y="1155" width="210" height="38" fill="#fff" stroke="#cbd5e1" rx="10"/>
+  <text x="120" y="1179" class="small">Jenis Dokumen</text>
+  <rect x="330" y="1155" width="225" height="38" fill="#fff" stroke="#cbd5e1" rx="10"/>
+  <text x="345" y="1179" class="small">Pilih File</text>
+  <rect x="105" y="1205" width="150" height="32" class="btn"/>
+  <text x="180" y="1226" text-anchor="middle" class="white">Upload</text>
+
+  <!-- Admin Dashboard -->
+  <rect x="640" y="1015" width="520" height="230" class="screen"/>
+  <rect x="640" y="1015" width="520" height="52" class="nav" rx="28"/>
+  <text x="675" y="1048" class="white">Dashboard Admin</text>
+  <rect x="680" y="1095" width="100" height="70" fill="#e7f5f0" stroke="#0b5d49" rx="14"/>
+  <rect x="795" y="1095" width="100" height="70" fill="#eff6ff" stroke="#2563eb" rx="14"/>
+  <rect x="910" y="1095" width="100" height="70" fill="#fff7ed" stroke="#f97316" rx="14"/>
+  <rect x="1025" y="1095" width="100" height="70" fill="#fef2f2" stroke="#ef4444" rx="14"/>
+  <text x="730" y="1128" text-anchor="middle" class="small">Paket</text>
+  <text x="845" y="1128" text-anchor="middle" class="small">Daftar</text>
+  <text x="960" y="1128" text-anchor="middle" class="small">Bayar</text>
+  <text x="1075" y="1128" text-anchor="middle" class="small">Dokumen</text>
+  <rect x="680" y="1185" width="445" height="42" fill="#f8fafc" stroke="#dbe4ef" rx="10"/>
+  <text x="700" y="1211" class="small">Menu: Kelola Paket | Verifikasi | Laporan</text>
+
+  <!-- Invoice Report -->
+  <rect x="1210" y="1015" width="520" height="230" class="screen"/>
+  <rect x="1210" y="1015" width="520" height="52" class="nav" rx="28"/>
+  <text x="1245" y="1048" class="white">Invoice &amp; Laporan</text>
+  <rect x="1250" y="1095" width="200" height="130" fill="#f8fafc" stroke="#dbe4ef" rx="14"/>
+  <text x="1270" y="1125" class="text">Invoice</text>
+  <text x="1270" y="1152" class="small">Total tagihan</text>
+  <text x="1270" y="1176" class="small">Total dibayar</text>
+  <text x="1270" y="1200" class="small">Status lunas</text>
+  <rect x="1485" y="1095" width="200" height="130" fill="#f8fafc" stroke="#dbe4ef" rx="14"/>
+  <text x="1505" y="1125" class="text">Laporan Admin</text>
+  <text x="1505" y="1152" class="small">Pendaftaran</text>
+  <text x="1505" y="1176" class="small">Pembayaran</text>
+  <text x="1505" y="1200" class="small">Rekap jamaah</text>
+</svg>
